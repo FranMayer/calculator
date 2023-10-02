@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>Calculator - Fran Mayer</title>
 </head>
 
 <nav class="navbar navbar-light bg-light">
-    <div class="container">
+    <div class="container d-flex justify-content-center align-items-center">
         <a class="navbar-brand" href="index.html">
-            <img src="./multimedia/logotipe.svg" alt="Logotipe" width="60" height="54">
+            <img src="./multimedia/logotipe.svg" alt="Logotipo" width="60" height="54" class="logo">
         </a>
     </div>
 </nav>
+
 
 <div class="calculator">
     <input type="text" id="display" readonly>
@@ -43,19 +41,14 @@
     <input type="button" value="=" onclick="calculate()">
 </div>
 
-<script src="calculator.js"></script>
-
-
-
-
 
 <body>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <script src="./js/calculator.js"></script>
 </body>
 
 </html>
