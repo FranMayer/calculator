@@ -4,10 +4,10 @@
 .title{
     font-family: 'Albert Sans', sans-serif;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
 
     
-    font-size: 24px;
+    font-size: 15px;
     color: grey; 
     transition: text-shadow 0.2s;
 }
@@ -73,7 +73,7 @@ input[value="="]:hover {
 }
 
 input[value="←"] {
-    background: #f44336; /
+    background: #f44336; 
     color: white;
 }
 
