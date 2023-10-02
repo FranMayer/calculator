@@ -1,24 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
 
 
+.title{
+    font-family: 'Albert Sans', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+
+    
+    font-size: 24px;
+    color: grey; 
+    transition: text-shadow 0.2s;
+}
+
+.title:hover {
+    text-shadow: 0 0 25px black; 
+}
 
 .calculator {
-    width: 300px;
+    width: 350px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), transparent);
 }
 
 input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;  
+    margin-bottom: 15px; 
 }
+
+input[type="text"], input[type="button"] {
+    font-family: 'Albert Sans', sans-serif; 
+    
+}
+
 
 input[type="button"] {
     width: 48px;
     height: 48px;
     font-size: 20px;
-    margin: 2px;
+    margin: 4px;
+    border-radius: 50%;
+    transition: background 0.2s, transform 0.2s;
+    border: solid 1px gray;
+}
+
+
+
+input[type="button"]:active {
+    background: #ccc;
+    transform: scale(0.95);
+}
+
+input[type="button"]:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+input[value="="] {
+    background: orange;
+    color: white;
+}
+
+input[value="="]:hover {
+    background: darkorange; 
+}
+
+input[value="←"] {
+    background: #f44336; /
+    color: white;
+}
+
+input[value="C"] {
+    background: #f44336; 
+    color: white;
+}
+
+input[value="+"] {
+    background: #9d87c4; 
+    color: white;
+}
+
+input[value="-"] {
+    background: #9d87c4; 
+    color: white;
+}
+
+input[value="*"] {
+    background: #9d87c4; 
+    color: white;
+}
+
+input[value="/"] {
+    background: #9d87c4; 
+    color: white;
+}
+
+input[value="%"] {
+    background: #9d87c4;
+    color: white;
 }
